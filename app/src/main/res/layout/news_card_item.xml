@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Inspired by the Udacity Android Basics by Google Nanodegree Program Course
+     Material as well as Soojeong Shin. This code is mostly copied and modified for the
+     6th and final project.
+     ~ Marvin Tittleton
+-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_on_card"
+                style="@style/TitleTextViewStyle"
+                tools:text="title" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="4dp">
+
+                <ImageView
+                    android:id="@+id/image_thumbnail_card"
+                    android:layout_width="@dimen/thumbnail_image_width"
+                    android:layout_height="@dimen/thumbnail_image_height"
+                    android:layout_alignParentLeft="true"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/body_text_card"
+                    style="@style/BodyViewStyle"
+                    android:layout_toRightOf="@+id/image_thumbnail_card"
+                    tools:text="bodyText" />
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/section_card"
+                    style="@style/SectionViewStyle"
+                    tools:text="section" />
+
+                <TextView
+                    android:id="@+id/author_card"
+                    style="@style/AuthorViewStyle"
+                    android:layout_below="@+id/section_card"
+                    tools:text="author" />
+
+                <TextView
+                    android:id="@+id/date_card"
+                    style="@style/DateViewStyle"
+                    android:layout_below="@+id/author_card"
+                    tools:text="date" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

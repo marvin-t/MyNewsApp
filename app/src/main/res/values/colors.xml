@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Inspired by the Udacity Android Basics by Google Nanodegree Program Course
+     Material as well as Soojeong Shin. This code is mostly copied and modified for the
+     6th and final project.
+
+     Color theme for app inspired by the Color Tool on https://material.io
+
+     ~ Marvin Tittleton
+-->
+
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#0277bd</color>
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#004c8c</color>
+    <!-- Background color for app -->
+    <color name="light_grey_background">#f5f5f5</color>
+    <!-- Accent color of the app (shown when reaching the end of scrollable content-->
+    <color name="colorAccent">#10CAC9</color>
+    <!-- Color of Test on App Bar -->
+    <color name="color_app_bar_text">#f5f5f5</color>
+    <!-- Background color for the Top Stories category -->
+    <color name="category_topStories">#e57373</color>
+    <!-- Background color for the World category -->
+    <color name="category_World">#81c784</color>
+
+
+    <color name="swipe_color_1">#4CAF50</color>
+    <color name="swipe_color_2">#03A9F4</color>
+    <color name="swipe_color_3">#FFC107</color>
+    <color name="swipe_color_4">#FF5722</color>
+
+
+    <!-- Text color of section -->
+    <color name="color_section">#2196F3</color>
+    <!-- Text color of trail -->
+    <color name="color_body_text">#000000</color>
+    <!-- Text color of author -->
+    <color name="color_author">#FFC107</color>
+    <!-- Text color of date -->
+    <color name="color_date_text">#a4a4a4</color>
+</resources>

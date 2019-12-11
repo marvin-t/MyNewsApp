@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Inspired by the Udacity Android Basics by Google Nanodegree Program Course
+     Material as well as Soojeong Shin. This code is mostly copied and modified for the
+     6th and final project.
+     ~ Marvin Tittleton
+-->
+
+<resources>
+    <!-- Title for the application. -->
+    <string name="app_name">My News App</string>
+
+    <!-- Settings Menu Item -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title -->
+    <string name="settings_title">My News App Settings</string>
+
+    <!-- No Internet connection string -->
+    <string name="no_internet_connection">No Internet Connection. Please check your connectivity.</string>
+
+    <!-- Content description of the image -->
+    <string name="image_des">Image</string>
+
+    <!-- TOAST Message for updating feed -->
+    <string name="updated">Updated</string>
+
+    <!-- No News string -->
+    <string name="no_news">No News</string>
+    <string name="hello_blank_fragment">Blank</string>
+
+    <!-- Category Title strings -->
+    <string name="breakingnews">News</string>
+    <string name="worldnews">World News</string>
+
+
+    <!-- Settings strings -->
+    <string name="action_settings">Settings</string>
+    <string name="hint_num_of_items">Between 1 and 50</string>
+
+    <!-- Strings to be used for the Preference Labels -->
+    <string name="settings_number_of_items_label">Number of Items</string>
+    <string name="settings_number_of_items_key" translatable="false">number_of_items</string>
+    <string name="settings_number_of_items_default" translatable="false">10</string>
+
+    <!-- Strings for Order-By preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for order-by newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance option-->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Strings for From Date preference -->
+    <string name="settings_from_date_label">From Date</string>
+    <string name="settings_from_date_key" translatable="false">from date</string>
+    <string name="settings_from_date_default" translatable="false">2010-01-01</string>
+
+    <!-- Strings for Order Date preference -->
+    <string name="settings_order_date_label">Order Date</string>
+    <string name="settings_order_date_key" translatable="false">order date</string>
+    <string name="settings_order_date_default" translatable="false">@string/settings_order_date_published_value</string>
+
+    <!-- Label for order-date published option -->
+    <string name="settings_order_date_published_label">Published</string>
+    <string name="settings_order_date_published_value" translatable="false">published</string>
+
+    <!-- Label for order-date newspaper-edition option -->
+    <string name="settings_order_date_newspaper_edition_label">Newspaper Edition</string>
+    <string name="settings_order_date_newspaper_edition_value" translatable="false">newspaper-edition</string>
+
+    <!-- Label for order-date last-modified option -->
+    <string name="settings_order_date_last_modified_label">Last Modified</string>
+    <string name="settings_order_date_last_modified_value" translatable="false">last-modified</string>
+
+
+</resources>
